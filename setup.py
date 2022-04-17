@@ -13,7 +13,7 @@ from setuptools import find_packages, setup, Command
 
 # Package meta-data.
 NAME = 'assault'
-DESCRIPTION = 'A Python based web load testing tool'
+DESCRIPTION = 'A Python based web load testing tool.'
 URL = 'https://github.com/Tbarox/Assault'
 EMAIL = 'thiago18coutinho@gmail.com'
 AUTHOR = 'Thiago Coutinho'
@@ -52,7 +52,7 @@ if not VERSION:
     with open(os.path.join(here, project_slug, '__version__.py')) as f:
         exec(f.read(), about)
 else:
-    about['__version__'] = VERSION
+about['__version__'] = VERSION
 
 
 class UploadCommand(Command):
