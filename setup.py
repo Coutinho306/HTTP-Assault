@@ -14,7 +14,7 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = "assault"
 DESCRIPTION = "A Python based web load testing tool."
-URL = "https://github.com/Tbarox/Assault"
+URL = "https://github.com/Tbarox/HTTP-Assault"
 EMAIL = "thiago18coutinho@gmail.com"
 AUTHOR = "Thiago Coutinho"
 REQUIRES_PYTHON = ">=3.7.0"
